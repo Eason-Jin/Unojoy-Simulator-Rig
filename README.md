@@ -16,15 +16,8 @@ The configration is as follows:
 The wiring diagram is shown below:
 ![Wiring diagram](Assets/image.png)
 
-Here is a video of me playing the game with the controller:
-<video width="480" height="320" controls>
-  <source src="Assets/side_cam.mp4" type="video/mp4">
-</video>
-Another one with a different camera angle:
-<video width="480" height="320" controls>
-  <source src="Assets/hand_cam.mp4" type="video/mp4">
-</video>
-<br></br>
+Videos of the controller in action are under the `Assets` folder.
+
 Shifting through a 12 speed with only hand controls is hard😅. So in phase 2 I will visit the near by wreckers to salvage some parts.
 
 ## Phase 2
