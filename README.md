@@ -1,5 +1,5 @@
 # Unojoy-Simulator-Rig
-This is a simple Unojoy controller I configured to play Euro Truck Simulator 2.
+This is a simple [Unojoy](https://github.com/AlanChatham/UnoJoy) controller I configured to play Euro Truck Simulator 2.
 ## Phase 1
 A simple mockup of the controller with some off-the-shelf components, including push buttons, potentiometers, rotary encoders and switches. \
 \
