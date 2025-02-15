@@ -21,7 +21,17 @@ Videos of the controller in action are under the `Assets` folder.
 Shifting through a 12 speed with only hand controls is hard😅. So in phase 2 I will visit the near by wreckers to salvage some parts.
 
 ## Phase 2
-I will be constructing this simulator using 3D printed parts and off-the-shelf hardware. All CAD files are found under the `CAD` folder. CAD models are made with Autodesk Inventor.
+### Acquiring Parts
+I took the steering wheel out of a Mazda 323 (5th gen, BF). The 3D printed parts will adapt to this particlar steering wheel.
+
+![Steering Wheel](Assets/steering_wheel.jpg)
+(No airbags, no problem 😎)
+
+A picture of the car for reference (not this exact car):
+![Car](Assets/323.jpg)
+(What a lovely nugg, you will be missed 🥹. Thank you for your service 🫡)\
+\
+I will be constructing the rest of the simulator using 3D printed parts and off-the-shelf hardware. All CAD files are found under the `CAD` folder. CAD models are made with Autodesk Inventor.
 ### Steering Assembly
 The steering wheel will be sandwiched between the grey and purple parts. The main steering shaft is a 32mm diameter PVC pipe. The steering wheel will be placed in between the silver and pink parts and held using a long M10 bolt for strength.
 #### Front view:
@@ -45,7 +55,7 @@ The three pedals will be revolving around the same 32mm PVC pipe. There is a hoo
 #### Pedal movement:
 ![Pedal Movement](Assets/pedal_movement.gif)
 
-Egonomics testing will be conducted on these pedals to ensure comfort and ease of heel-and-toe shifting. The shape and size of the pedals will be subject to change.
+Egonomics will be tested on these pedals to ensure comfort and ease of heel-and-toe shifting. The shape and size of the pedals may subject to change. (Or I might get some real pedals from a car, who knows?)
 ### Shifter Assembly
 The shifter is a standard 6-speed H-pattern shifter with reverse next to 1st gear. The supporting columns and the actual shift rod are 15mm PVC pipes. One of the column needs to be removed to leave space for the reverse. However, considering they have very little load on them, this will not affect the stability of the shifter. 
 
@@ -63,9 +73,10 @@ The purple piece is the reverse lockout, which can be flipped up for the shifter
 ![Shifter Top](Assets/shifter_CAD_top.png)
 The tabs on the red part and the blue hooks are, again, for rubber bands for auto-centering horizontally (we keep this project low-budget💸). The slots that the shifter go in have a slightly narrow entrance, this allows the shifter to "pop" in place and stay there. \
 \
-There are holes on the side walls for the wire to run through. Another wire will run along the shift rod, when it moves into position, the wires will contact and completes the ciruit.
+There are holes on the side walls for the wire to run through. Another wire will run along the shift rod, when it moves into position, the wires will contact and complete the ciruit.
 #### Shifter movement:
 ![Shifter Movement](Assets/shifter_movement.gif)
 
+Considering the amount of connections needed for shifter and gear knob alone, I might migrate some of the inputs to a second Arduino. This will also allow for more buttons and switches to be added in the future.
 ### Gear Knob
 # TODO
