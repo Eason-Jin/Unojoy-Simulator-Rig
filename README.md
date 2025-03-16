@@ -104,3 +104,5 @@ The bottom of the shift knob is a M20 thread with a 12mm hole for the wires to r
 ![Knob Details](Assets/shift_knob_movement.gif)
 
 The joystick has a tab at the bottom, which allows rubber band to be attached on either side for auto-centering the camera. Due to the nature of Euro Trucks gameplay, vertical camera movement is not important.
+
+# TODO: Update images and description
