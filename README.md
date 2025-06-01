@@ -98,10 +98,6 @@ The purple piece is the reverse lockout, which can be flipped up for the shifter
 | -------- | ------- |
 | ![312_1](Assets/312_1.png) | ![312_2](Assets/312_2.png) |
 
-
-
-
-
 #### Top view
 
 ![Shifter Top](Assets/shifter_CAD_top.png)
