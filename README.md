@@ -94,9 +94,13 @@ The shifter is a standard 6-speed H-pattern shifter with reverse next to 1st gea
 
 The purple piece is the reverse lockout, which can be flipped up for the shifter to move into reverse. This is inspired by the shifter in the [Ferrari 312 T2](https://www.youtube.com/watch?v=Ag03SegGTds). Jkjk 😁
 
-![312_1](Assets/312_1.png)
+| | |
+| -------- | ------- |
+| ![312_1](Assets/312_1.png) | ![312_2](Assets/312_2.png) |
 
-![312_2](Assets/312_2.png)
+
+
+
 
 #### Top view
 
@@ -146,16 +150,15 @@ Various improvements were made along the way to the CAD models. Such as:
 * The pedals were shortened and mounted upside-down for a more natural feel.
 
 Here are some angles of the complete construction:
-![Full](Assets/image0.jpeg)
-![Steering](Assets/image1.jpeg)
-![Steering board](Assets/image2.jpeg)
-![Steering connection](Assets/image3.jpeg)
-![Pedals](Assets/image4.jpeg)
-![Pedals back](Assets/image6.jpeg)
-![Pedals front](Assets/image7.jpeg)
-![Shifter](Assets/image5.jpeg)
 
-Videos of it fully working will be coming soon, stay tuned.
+| | |
+| -------- | ------- |
+| ![Full](Assets/image0.jpeg) | ![Steering](Assets/image1.jpeg) |
+| ![Steering board](Assets/image2.jpeg) | ![Steering connection](Assets/image3.jpeg) |
+| ![Pedals](Assets/image4.jpeg) | ![Pedals back](Assets/image6.jpeg) |
+| ![Pedals front](Assets/image7.jpeg) | ![Shifter](Assets/image5.jpeg) |
+
+Videos of it fully working and wiring diagram will be coming soon, stay tuned.
 
 ## Acknowledgements
 
