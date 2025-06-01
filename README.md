@@ -1,12 +1,16 @@
 # Unojoy-Simulator-Rig
+
 This is a simple [Unojoy](https://github.com/AlanChatham/UnoJoy) controller I configured to play Euro Truck Simulator 2.
+
 ## Phase 1
+
 A simple mockup of the controller with some off-the-shelf components, including push buttons, potentiometers, rotary encoders and switches. \
 \
 A picture of the mockup os shown below:
 ![Mockup](Assets/dashboard.jpg)
 
 The configration is as follows:
+
 * 1 [Arduino Uno](https://surplustronics.co.nz/products/7014-arduino-uno-r3-clone-with-usb-cable).
 * 1 [rotary encoder](https://surplustronics.co.nz/products/10776-rotary-encoder-module) for the steering wheel.
 * 3 [potentiometers](https://surplustronics.co.nz/products/1686-10k-ohm-linear-potentiometer-) for the throttle, brake and clutch. Another one will be added later for the camera.
@@ -21,55 +25,71 @@ Videos of the controller in action are under the `Assets` folder.
 Shifting through a 12 speed with only hand controls is hard😅. So in phase 2 I will visit the near by wreckers to salvage some parts.
 
 ## Phase 2
+
 ### Acquiring Parts
+
 I took the steering wheel out of a Mazda 323 (5th gen, BF). The 3D printed parts will adapt to this particlar steering wheel.
 
 ![Steering Wheel](Assets/steering_wheel.jpg)
 
-(No airbags, no problem 😎)
-
 A picture of the car for reference (not this exact car):
 ![Car](Assets/323.jpg)
 
-(What a lovely nugg, you will be missed 🥹. Thank you for your service 🫡)\
-\
+The seat is taken from the most luxurious car ever, the pinnicle of Australian engineering, the most beautiful curves human have ever crafted...
+
+The AU Falcon Series II Wagon. (Image for illustration):
+![AU Falcon](Assets/au.jpg)
+
 I will be constructing the rest of the simulator using 3D printed parts and off-the-shelf hardware. All CAD files are found under the `CAD` folder. CAD models are made with Autodesk Inventor.
+
 ### Steering Assembly
+
 The steering wheel will be sandwiched between the grey and purple parts. The main steering shaft is a 32mm diameter PVC pipe. The steering wheel will be placed in between the silver and pink parts and held using a long M10 bolt for strength.
 
-#### Front view:
+#### Front view
+
 ![Steering front](Assets/steering_CAD_front.png)
 
-#### Rear view:
+#### Rear view
+
 ![Steering rear](Assets/steering_CAD_rear.png)
 
 A rubber band will be attached to the orange part behind the gear and goes to the support structure. This will provide auto-centering force. A proper force feedback motor is planned for the future.\
 \
 The cream support structure and the two red posts will be screwed to a wooden base plate with M6 screws.\
 \
-The encoder is a cheaper product, thus it only has 12 pulses per revolution. To counter that, a set of gears with ratio 16:64 to slightly increase the resolution. The encoder will go into the slot on the back of the cream support. 
+The encoder is a cheaper product, thus it only has 12 pulses per revolution. To counter that, a set of gears with ratio 16:64 to slightly increase the resolution. The encoder will go into the slot on the back of the cream support.
+
 ### Pedal Assembly
+
 The three pedals will be revolving around the same 32mm PVC pipe. There is a hook on the green support and an ear on the grey pedals. A spring will be attached to the hook and the ear to provide resistance and resetting pedal positions. The potentiometers will be attached using a rope drive as shown in this [video](https://www.youtube.com/watch?v=5Pex7cJlhsA&list=WL&index=2&t=226s).
 
 ![Rope Drive](Assets/rope_drive.png)
 
-#### Front view:
+#### Front view
+
 ![Pedal Front](Assets/pedal_CAD_front.png)
 
-#### Rear view:
+#### Rear view
+
 ![Pedal Rear](Assets/pedal_CAD_rear.png)
 
-#### Pedal movement:
+#### Pedal movement
+
 ![Pedal Movement](Assets/pedal_movement.gif)
 
 Egonomics will be tested on these pedals to ensure comfort and ease of heel-and-toe shifting. The shape and size of the pedals may subject to change. (Or I might get some real pedals from a car, who knows?)
-### Shifter Assembly
-The shifter is a standard 6-speed H-pattern shifter with reverse next to 1st gear. The supporting columns and the actual shift rod are 15mm PVC pipes. One of the column needs to be removed to leave space for the reverse. However, considering they have very little load on them, this will not affect the stability of the shifter. 
 
-#### Front view:
+### Shifter Assembly
+
+The shifter is a standard 6-speed H-pattern shifter with reverse next to 1st gear. The supporting columns and the actual shift rod are 15mm PVC pipes. One of the column needs to be removed to leave space for the reverse. However, considering they have very little load on them, this will not affect the stability of the shifter.
+
+#### Front view
+
 ![Shifter Front](Assets/shifter_CAD_front.png)
 
-#### Rear view:
+#### Rear view
+
 ![Shifter Rear](Assets/shifter_CAD_rear.png)
 
 The purple piece is the reverse lockout, which can be flipped up for the shifter to move into reverse. This is inspired by the shifter in the [Ferrari 312 T2](https://www.youtube.com/watch?v=Ag03SegGTds). Jkjk 😁
@@ -78,31 +98,67 @@ The purple piece is the reverse lockout, which can be flipped up for the shifter
 
 ![312_2](Assets/312_2.png)
 
-#### Top view:
+#### Top view
+
 ![Shifter Top](Assets/shifter_CAD_top.png)
 
 The tabs on the red part and the blue hooks are, again, for rubber bands for auto-centering horizontally (we keep this project low-budget💸). The slots that the shifter go in have a slightly narrow entrance, this allows the shifter to "pop" in place and stay there. \
 \
 There are holes on the side walls for the wire to run through. Another wire will run along the shift rod, when it moves into position, the wires will contact and complete the ciruit.
-#### Shifter movement:
+
+#### Shifter movement
+
 ![Shifter Movement](Assets/shifter_movement.gif)
 
 Considering the amount of connections needed for shifter and gear knob alone, I might migrate some of the inputs to a second Arduino. This will also allow for more buttons and switches to be added in the future.
+
 ### Shift Knob
+
 The shift knob is divided into 3 sections. The blue part has a switch poking out of it as the high/low range selector. The Orange part has a joystick to allow rotation of the camera. The grey part contains the potentiometer for the joystick.
-#### Front view:
+
+#### Front view
+
 ![Knob Front](Assets/shift_knob_CAD_front.png)
 
-#### Rear view:
+#### Rear view
+
 ![Knob Rear](Assets/shift_knob_CAD_rear.png)
 
-#### Bottom view:
+#### Bottom view
+
 ![Knob Bottom](Assets/shift_knob_CAD_bottom.png)
 
 The bottom of the shift knob is a M20 thread with a 12mm hole for the wires to run through.
-#### Knob details:
+
+#### Knob details
+
 ![Knob Details](Assets/shift_knob_movement.gif)
 
 The joystick has a tab at the bottom, which allows rubber band to be attached on either side for auto-centering the camera. Due to the nature of Euro Trucks gameplay, vertical camera movement is not important.
 
-# TODO: Update images and description
+## Phase 3
+
+Various improvements were made along the way to the CAD models. Such as:
+
+* The steering assembly was flipped upside-down so that it can be mounted on a angle without it being too high.
+* The auto-centering rubber band was omitted because the wheel is simply too heavy for it to do anything (this issue should be solved with the introduction of a force-feedback motor in the future).
+* The reverse lockout was omitted due to the lack of space.
+* The pedals were shortened and mounted upside-down for a more natural feel.
+
+Here are some angles of the complete construction:
+![Full](Assets/image0.jpeg)
+![Steering](Assets/image1.jpeg)
+![Steering board](Assets/image2.jpeg)
+![Steering connection](Assets/image3.jpeg)
+![Pedals](Assets/image4.jpeg)
+![Pedals back](Assets/image6.jpeg)
+![Pedals front](Assets/image7.jpeg)
+![Shifter](Assets/image5.jpeg)
+
+Videos of it fully working will be coming soon, stay tuned.
+
+## Acknowledgements
+
+* Thanks to my friend Oscar for helping me constructing this abomination.
+* Thanks to my host family for trusting me that I am not making a bomb when they saw the questionable wiring and electronics.
+* Thanks to my local Bunnings and Pick-a-Part for the materials (not sponsored).
