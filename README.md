@@ -154,7 +154,11 @@ Here are some angles of the complete construction:
 | ![Pedals](Assets/image4.jpeg) | ![Pedals back](Assets/image6.jpeg) |
 | ![Pedals front](Assets/image7.jpeg) | ![Shifter](Assets/image5.jpeg) |
 
-Videos of it fully working and wiring diagram will be coming soon, stay tuned.
+### Demostration
+
+![Short video](Assets/Unojoy%20sim%20demo%20short.mp4)
+
+Or, watch the full video on [YouTube](https://youtu.be/UTyCCYQ6A6k).
 
 ## Acknowledgements
 
